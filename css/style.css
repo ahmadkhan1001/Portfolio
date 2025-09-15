@@ -1,0 +1,91 @@
+/* Background Image */
+body{
+    background-image: url('../Assets/Background-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* End Background Image */
+/* Nav Bar  */
+nav{
+    font-family: 'ahm';
+}
+/*End of  Nav Bar  */
+/* Hero Section */
+.content{
+    margin-top: 11rem;
+}
+.heading{
+    display: inline-block;
+}
+.btnn{
+    background-color: #fe5820;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.font{
+    font-family: 'ahm';
+    letter-spacing: 2px;
+}
+/* End of Hero Section */
+/* Footer  */
+html{
+    height: 100%;
+}
+footer{
+    margin-top: auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* End of Footer  */
+
+/* Media Querry For Hero section and Footer */
+@media screen and (max-width:991px) {
+    .content{
+        margin-top: 5rem;
+    }
+    .font{
+        margin-bottom: 1rem;
+    }
+}
+/* End of Media Querry */
+
+/* Custom Font */
+@font-face {
+    font-family: 'ahm';
+    src: url('../Fonts/Saira-VariableFont_wdth\,wght.ttf');
+}
+
+/* Animation */
+#animate {
+    letter-spacing: 5px;
+    font-family: monospace;
+    border-right: 3px solid #fe5820;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+
+    /* Typing + erasing loop */
+    animation: 
+        type 6s steps(17) infinite alternate,
+        blink .6s step-end infinite;
+}
+@keyframes type {
+    0% { width: 0; }
+    40% { width: 17ch; }   /* typing done */
+    60% { width: 17ch; }   /* pause */
+    100% { width: 0; }     /* erase */
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+

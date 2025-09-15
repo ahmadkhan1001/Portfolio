@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'ahm';
+    src: url('../Fonts/Saira-VariableFont_wdth\,wght.ttf');
+}
+body{
+    background-image: url('../Assets/Background-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    font-family: 'ahm';
+}
+.heading{
+    font-family: 'ahm';
+}
+.form-control,.form-control::placeholder{
+    font-size: 1.2rem;
+    background: transparent;
+    color: white;
+    font-family: 'ahm';
+}
+.form-control:focus{
+    background: transparent;
+}
+textarea{
+    height: 180px;
+    font-family: 'ahm';
+}
+.info{
+    font-family: 'ahm';
+}
+
+.butn:hover{
+    transform: translateY(-3px);
+    transition: all .3s linear;
+}
+.icons{
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
