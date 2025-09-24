@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'ahm';
+    src: url('../Fonts/Saira-VariableFont_wdth\,wght.ttf');
+}
+body{
+    background-image: url('../Assets/Background-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    font-family: 'ahm';
+}
+.para{
+    margin-top: 1.5rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-family: 'ahm';
+}
+.btnn{
+    background-color: #fe5820;
+    outline: none;
+    border: none;
+    color: #fff;
+    display: inline;
+}
