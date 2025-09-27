@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'ahm';
+    src: url('../Fonts/Saira-VariableFont_wdth\,wght.ttf');
+}
+body{
+    background-image: url('../Assets/Background-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    font-family: 'ahm';
+    font-size: 2.5rem;
+}
+p{
+    font-family: 'ahm';
+}
+/* .card:hover{
+    transition: all .5s linear;
+    transform: translateY(-8px);
+} */
+.card-img-top:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.1px);
+}
